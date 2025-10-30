@@ -5,10 +5,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class PolynomialTestTwo {
-    
+
     private static final int SEED = 12345;
     private static final int TRIALS = 100000;
-    
+
     private Polynomial createRandom(int deg, Random rng) {
         int[] c = new int[deg + 1];
         for(int j = 0; j < deg + 1; j++) {
@@ -16,7 +16,7 @@ public class PolynomialTestTwo {
         }
         return new Polynomial(c);
     }
-    
+
     // Utility method to check that polynomials p1 and p2 are equal, and also
     // update the checksum with the coefficients of these polynomials.
     private boolean polyEq(Polynomial p1, Polynomial p2, CRC32 check) {
@@ -27,7 +27,7 @@ public class PolynomialTestTwo {
         }
         return true;
     }
-    
+
     @Test public void testAdd() {
         int[] t01 = {0};
         int[] t02 = {-42, 99, 17, 101};
@@ -37,7 +37,7 @@ public class PolynomialTestTwo {
         Polynomial r0 = p01.add(p02);
         Polynomial p0e = new Polynomial(e0);
         assertTrue(polyEq(r0, p0e, null));
-        
+
         // Highest terms may cancel each other out in addition.
         int[] t11 = {5, -5, 2, -2, 4};
         int[] t12 = {3, 5, -2, 2, -4};
@@ -47,7 +47,7 @@ public class PolynomialTestTwo {
         Polynomial r1 = p11.add(p12);
         Polynomial p1e = new Polynomial(e1);
         assertTrue(polyEq(r1, p1e, null));
-        
+
         int[] t21 = {-3, 9, -2, 0, 0, 4};
         int[] t22 = {5, -7, 0, 1, 0, 0, 5};
         int[] e2 = {2, 2, -2, 1, 0, 4, 5};
@@ -56,7 +56,7 @@ public class PolynomialTestTwo {
         Polynomial r2 = p21.add(p22);
         Polynomial p2e = new Polynomial(e2);
         assertTrue(polyEq(r2, p2e, null));
-        
+
         int[] t31 = {-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12345};
         int[] t32 = {-9, 1, 2, 3, 4, 5, 6};
         int[] e3 = {-10, 1, 2, 3, 4, 5, 6, 0, 0, 0, 12345};
@@ -66,7 +66,7 @@ public class PolynomialTestTwo {
         Polynomial p3e = new Polynomial(e3);
         assertTrue(polyEq(r3, p3e, null));
     }
-    
+
     @Test public void testMultiply() {
         int[] c1 = {7, -5, 3}; // 3x^2 - 5x + 7
         int[] c2 = {6, 0, 0, -4}; // -4x^3 + 6
@@ -80,7 +80,7 @@ public class PolynomialTestTwo {
         int[] c5 = {42, -30, 18, -28, 20, -12};
         Polynomial p5 = new Polynomial(c5);
         assertTrue(polyEq(p3, p5, null));
-        
+
         int[] c6 = {0, 1, 0, 0, 0, -2, 0, 0, 0, 0, 1};
         int[] c7 = {1, 2, -4};
         Polynomial p6 = new Polynomial(c6);
@@ -93,7 +93,7 @@ public class PolynomialTestTwo {
         Polynomial p10 = new Polynomial(c10);
         assertTrue(polyEq(p8, p10, null));
     }
-    
+
     @Test public void massTest() {
         Random rng = new Random(SEED);
         CRC32 check = new CRC32();
