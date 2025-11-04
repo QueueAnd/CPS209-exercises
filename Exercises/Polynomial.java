@@ -1,12 +1,44 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 
-public class Polynomial {
+public class Polynomial implements Comparable<Polynomial> {
     @Override
     public String toString() {
         return "Hello!";
     }
 
     int[] coefficients;
+
+    @Override public boolean equals(Object other){
+        if(other instanceof Polynomial){
+            return compareTo((Polynomial)other)==0;
+        }
+        return false;
+    }
+    @Override public int hashCode(){
+        int hash=0;
+        for (int coefficient : coefficients) {
+            hash += hash * coefficient * 33;
+        }
+        return hash;
+    }
+    @Override public int compareTo(Polynomial other){
+
+        if (getDegree()>other.getDegree()){
+            return 1;
+        } else if (getDegree()<other.getDegree()){
+            return -1;
+        } else {
+            for(int i=getDegree(); i>=0; i--){
+                if(getCoefficient(i)>other.getCoefficient(i)){
+                    return 1;
+                } else if (getCoefficient(i)<other.getCoefficient(i)){
+                    return -1;
+                }
+            }
+        }
+        return 0;
+    }
 
     public Polynomial(int[] coefficients) {
         this.coefficients = coefficients.clone();
@@ -51,11 +83,13 @@ public class Polynomial {
 
     public Polynomial multiply(Polynomial other) {
         int maxDegree=Math.max(getDegree(), other.getDegree());
-        int newMaxIndex=maxDegree+1;
-        int multipliedMaxIndex=maxDegree*maxDegree+1;
-        int[] results=new int[multipliedMaxIndex];
-        for(int i=0; i<newMaxIndex; i++){
-            results[i*i]=getCoefficient(i)*other.getCoefficient(i);
+        int maxIndex=maxDegree+1;
+        int newMaxIndex=maxDegree*2+1;
+        int[] results=new int[newMaxIndex];
+        for(int i=0; i<getDegree()+1; i++){
+            for(int j=0; j<other.getDegree()+1; j++){
+                results[i+j]=results[i+j]+getCoefficient(i)*other.getCoefficient(j);
+            }
         }
         return new Polynomial(results);
     }

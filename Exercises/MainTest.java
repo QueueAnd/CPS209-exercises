@@ -5,13 +5,8 @@ public class MainTest {
         Polynomial p1 = new Polynomial(c1);
         Polynomial p2=new Polynomial(c2);
 
-        int[] t01 = {12, 24, 36, 48};
-        int[] t02 = {-42, 99, 17, 101};
-        int[] e0 = {-42, 99, 17, 101};
-        Polynomial p01 = new Polynomial(t01);
-        Polynomial p02 = new Polynomial(t02);
-        Polynomial r0 = p01.add(p02);
-        Polynomial p0e = new Polynomial(e0);
-
+        Polynomial thing1=new Polynomial(new int[]{3, 1, 2, 3});
+        Polynomial thing2=new Polynomial(new int[]{7, 2, 4, 8});
+        thing1.multiply(thing2);
     }
 }
