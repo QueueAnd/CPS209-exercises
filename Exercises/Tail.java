@@ -25,6 +25,6 @@ public class Tail extends FileProcessor<List<String>> {
             return result;
         }
         System.out.println(result.subList(Math.max(0, result.size()-1-data), result.size()-1).size());
-        return result.subList(Math.max(0, result.size()-1-data), result.size()-1);
+        return result.subList(Math.max(0, result.size()-data), result.size());
     }
 }
