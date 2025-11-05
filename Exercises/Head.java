@@ -2,8 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
-public class Head {
+public class Head extends JPanel {
     private boolean mouseInside;
     private MyMouseListener mouseListener= new MyMouseListener();
     public Head(){
