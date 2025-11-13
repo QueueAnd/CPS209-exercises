@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Lissajous
+comment1.params=size
+comment1.target=Lissajous(int)
+comment2.params=
+comment2.target=void\ createComponents()
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment4.params=a\ b
+comment4.target=double\ gcd(double,\ double)
+numComments=5

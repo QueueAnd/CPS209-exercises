@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fc08da4-520e-432d-b233-58fb484981d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccessCountArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccessCountArrayListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCPS 209 Labs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Head.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lissajous.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LissajousMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Particle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParticleField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParticleMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polynomial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolynomialTestOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolynomialTestThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolynomialTestTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceFiller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TailTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Throwing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordCountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/AccessCountArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/AccessCountArrayListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/CCPS 209 Labs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/FileProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Head$MyMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Head.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/HeadMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Lissajous$MyActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Lissajous.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/LissajousMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Particle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/ParticleField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/ParticleField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/ParticleMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/ParticleMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Polynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/PolynomialTestOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/PolynomialTestThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/PolynomialTestTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Primes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/PrimesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$AreaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$AreaInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$CircleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$ImageTimerPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$PlusFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$RegularPolygonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$RingFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller$StarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/SpaceFiller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Tail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/TailTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Throwing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/WordCountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/warandpeace.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warandpeace.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="34WbB3DCsh2b0s02eyL3gzlRhhl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HeadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LissajousMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParticleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpaceFiller.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AccessCountArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PolynomialTestThree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PolynomialTestTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PolynomialTestTwo.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PolynomialTestTwo.testMultiply.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrimesTest.isPrimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrimesTest.kthPrimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StreamExercisesTest.testCollectWords.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StreamExercisesTest.testCountLines.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TailTest.scanWarAndPeace.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WordCountTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WordCountTest.scanWarAndPeace.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/VN_Building/Projects/CPS209-exercises/Exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All Tests">
+    <configuration name="All Tests" type="JUnit" factoryName="JUnit">
+      <module name="Exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="JUnit" factoryName="JUnit">
+      <module name="Exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimesTest.isPrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrimesTest" />
+      <option name="METHOD_NAME" value="isPrimeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimesTest.kthPrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrimesTest" />
+      <option name="METHOD_NAME" value="kthPrimeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExercisesTest.testCollectWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StreamExercisesTest" />
+      <option name="METHOD_NAME" value="testCollectWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExercisesTest.testCountLines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StreamExercisesTest" />
+      <option name="METHOD_NAME" value="testCountLines" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TailTest.scanWarAndPeace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TailTest" />
+      <option name="METHOD_NAME" value="scanWarAndPeace" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All Tests" />
+      <item itemvalue="JUnit.Main" />
+      <item itemvalue="JUnit.PrimesTest.isPrimeTest" />
+      <item itemvalue="JUnit.PrimesTest.kthPrimeTest" />
+      <item itemvalue="JUnit.StreamExercisesTest.testCollectWords" />
+      <item itemvalue="JUnit.StreamExercisesTest.testCountLines" />
+      <item itemvalue="JUnit.TailTest.scanWarAndPeace" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PrimesTest.kthPrimeTest" />
+        <item itemvalue="JUnit.PrimesTest.isPrimeTest" />
+        <item itemvalue="JUnit.StreamExercisesTest.testCollectWords" />
+        <item itemvalue="JUnit.StreamExercisesTest.testCountLines" />
+        <item itemvalue="JUnit.TailTest.scanWarAndPeace" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fc08da4-520e-432d-b233-58fb484981d9" name="Changes" comment="" />
+      <created>1761332140615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761332140615</updated>
+      <workItem from="1761332162150" duration="561000" />
+      <workItem from="1761332744124" duration="878000" />
+      <workItem from="1762200378847" duration="15656000" />
+      <workItem from="1762276189170" duration="17876000" />
+      <workItem from="1762883523512" duration="8389000" />
+      <workItem from="1762903504092" duration="920000" />
+      <workItem from="1762922221006" duration="838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
