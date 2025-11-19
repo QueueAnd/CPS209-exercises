@@ -1,5 +1,7 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 
 public class P2J2 {
     public static String removeDuplicates(String text){
@@ -49,7 +51,26 @@ public class P2J2 {
         }
         return rowCount*colCount;
     }
-//    public static int recaman(int n){
-//
-//    }
+    public static int recaman(int n){
+        boolean[] sequence=new boolean[n*10];
+        List<Integer> results=new ArrayList<Integer>();
+        Arrays.fill(sequence,false);
+        int temp=0;
+        if(n==0){
+            return 0;
+        }
+        for(int i=0; i<=n; i++) {
+            int negativeTerm=temp-i;
+            int postiveTerm=temp+i;
+            if (negativeTerm > 0 && !sequence[negativeTerm]) {
+                results.add(negativeTerm);
+                temp=negativeTerm;
+            } else {
+                results.add(postiveTerm);
+                temp=postiveTerm;
+            }
+            sequence[temp]=true;
+        }
+        return results.get(n);
+    }
 }
