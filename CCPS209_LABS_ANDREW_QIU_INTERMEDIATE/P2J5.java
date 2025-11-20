@@ -28,19 +28,27 @@ public class P2J5 {
     }
     public static BigInteger sevenZero(int n){
         BigInteger num =BigInteger.valueOf(7);
-        if((n%2==0) || (n%5==0)){
-            int max=findMaxFactor(n);
-            return generateSevens(n, max);
-        } else {
-            while(true){
-                if(num.remainder(BigInteger.valueOf(n)).equals(BigInteger.ZERO)){
-                    return num;
-                } else {
-                    num=num.multiply(BigInteger.valueOf(10)).add(BigInteger.valueOf(7));
-                }
+        BigInteger max=BigInteger.ZERO;
+        boolean isDivisible=false;
+        if((n%2==0) || (n%5==0)) {
+            max = BigInteger.valueOf((long)Math.pow(10, findMaxFactor(n)));
+            isDivisible = true;
+        }
+        while(true){
+            BigInteger temp;
+            if(isDivisible) {
+                temp = num.multiply(max);
+            } else {
+                temp=num;
+            }
+            if(temp.remainder(BigInteger.valueOf(n)).equals(BigInteger.ZERO)) {
+                return temp;
+            } else {
+                num=num.multiply(BigInteger.valueOf(10)).add(BigInteger.valueOf(7));
             }
         }
     }
+
     public static int findMaxFactor(int n){
         int fives=0, twos=0;
         int temp=n;
@@ -53,24 +61,6 @@ public class P2J5 {
             temp/=5;
         }
         return Math.max(fives,twos);
-    }
-    public static BigInteger generateSevens(int n, int max){
-        int length=max+1;
-        while(true){
-//            for(int sevens=1; sevens<length-max; sevens++){
-//                BigInteger temp=BigInteger.valueOf(7);
-//                for(int i=1; i<sevens; i++) {
-//                    temp=temp.multiply(BigInteger.valueOf(10)).add(BigInteger.valueOf(7));
-//                }
-//                for(int i=1; i<length-sevens; i++){
-//                    temp=temp.multiply(BigInteger.valueOf(10));
-//                }
-//                if(temp.remainder(BigInteger.valueOf(n)).equals(BigInteger.ZERO)){
-//                    return temp;
-//                }
-//            }
-//            length+=1;
-        }
     }
 }
 
