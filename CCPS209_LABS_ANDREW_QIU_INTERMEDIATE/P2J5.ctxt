@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=P2J5
+comment1.params=n
+comment1.target=java.util.List\ fibonacciSum(java.math.BigInteger)
+comment2.params=n
+comment2.target=java.math.BigInteger\ sevenZero(int)
+comment3.params=n
+comment3.target=int\ findMaxFactor(int)
+numComments=4

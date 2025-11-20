@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=P2J6Test
+comment1.params=
+comment1.target=void\ testSumOfDistinctCubes()
+comment2.params=alphabet\ rng\ n
+comment2.target=java.lang.String\ createString(java.lang.String,\ java.util.Random,\ int)
+comment3.params=
+comment3.target=void\ testForbiddenSubstrings()
+numComments=4

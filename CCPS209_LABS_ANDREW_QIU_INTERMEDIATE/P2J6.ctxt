@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=P2J6
+comment1.params=n
+comment1.target=java.util.List\ sumOfDistinctCubes(int)
+comment2.params=n\ c\ SoFar
+comment2.target=boolean\ sumOfDistinctCubes(int,\ int,\ java.util.LinkedList)
+comment3.params=n
+comment3.target=int\ findHighestCube(int)
+comment4.params=alphabet\ n\ tabu
+comment4.target=java.util.List\ forbiddenSubstrings(java.lang.String,\ int,\ java.util.List)
+comment5.params=alphabet\ n\ tabu\ soFar\ result
+comment5.target=void\ forbiddenSubstrings(java.lang.String,\ int,\ java.util.List,\ java.lang.String,\ java.util.List)
+numComments=6
