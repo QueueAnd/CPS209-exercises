@@ -52,9 +52,7 @@ public class P2J6 {
             }
         }
         if (soFar.length()==n){
-            if(!(result.contains(soFar))){
-                result.add(soFar);
-            }
+            result.add(soFar);
             return;
         }
         for(int i=0; i<alphabet.length(); i++){
